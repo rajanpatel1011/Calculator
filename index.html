@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="calculator">
+   <div class="header">
+      <div class="window">
+         <span class="red"></span>
+         <span class="yellow"></span>
+         <span class="green"></span>
+      </div>
+      <div id="viewer" class="viewer">
+         <span>0</span>
+      </div>
+   </div>
+   <div class="keys">
+      <div class="row">
+         <div class="number">
+            <span class="num" data-num="7">7</span>
+            <span class="num" data-num="8">8</span>
+            <span class="num" data-num="9">9</span>
+         </div>
+         <div class="symbol">
+            <span data-ops="divided by" class="ops">÷</span>
+         </div>
+      </div>
+      <div class="row">
+         <div class="number">
+            <span  class="num" data-num="4">4</span>
+            <span  class="num" data-num="5">5</span>
+            <span  class="num" data-num="6">6</span>
+         </div>
+         <div class="symbol">
+            <span data-ops="minus" class="ops">-</span>
+         </div>
+      </div>
+      <div class="row">
+         <div class="number">
+            <span  class="num" data-num="1">1</span>
+            <span  class="num" data-num="2">2</span>
+            <span  class="num" data-num="3">3</span>
+         </div>
+         <div class="symbol">
+            <span data-ops="plus" class="ops">+</span>
+         </div>
+      </div>
+      <div class="row">
+         <div class="number">
+            <span class="num" id="0">00</span>
+            <span class="num" data-num="0">0</span>
+            <span data-ops="times" class="ops">.</span>
+         </div>
+         <div class="symbol">
+            <span data-ops="times" class="ops">x</span>
+         </div>
+      </div>
+       <div class="row">
+         <div class="number">
+            <span class="clear" id="clear">AC</span>
+            <span class="clear" id="clear">C</span>
+            <span class="clear" id="clear">del.</span>
+         </div>
+         <div class="symbol action">
+            <span id="equals" class="equals" data-result="">=</span>
+         </div>
+   </div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
